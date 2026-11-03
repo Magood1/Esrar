@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "inverse-on-surface": "#e6f2fd", "on-tertiary-fixed": "#291800", "surface-variant": "#d7e4ef", "error-container": "#ffdad6", "surface-container-highest": "#d7e4ef", "secondary": "#605887", "tertiary-fixed-dim": "#f7bc63", "primary": "#21625c", "surface-container-lowest": "#ffffff", "primary-fixed": "#afeee7", "on-secondary": "#ffffff", "on-secondary-container": "#595280", "on-surface": "#111d25", "primary-container": "#3d7b75", "surface-container": "#e3f0fa", "secondary-fixed": "#e6deff", "tertiary-container": "#976814", "on-tertiary-container": "#fff5ed", "outline-variant": "#bfc9c6", "on-tertiary-fixed-variant": "#624000", "tertiary-fixed": "#ffddb1", "on-error-container": "#93000a", "on-primary-fixed": "#00201d", "on-primary": "#ffffff", "on-tertiary": "#ffffff", "background": "#f5faff", "outline": "#6f7977", "primary-fixed-dim": "#94d2cb", "surface": "#f5faff", "tertiary": "#7a5000", "inverse-surface": "#26323a", "on-error": "#ffffff", "inverse-primary": "#94d2cb", "on-primary-container": "#d5fff9", "surface-container-low": "#eaf5ff", "on-surface-variant": "#3f4947", "on-primary-fixed-variant": "#04504b", "surface-dim": "#cfdce6", "on-secondary-fixed": "#1c1440", "surface-bright": "#f5faff", "on-secondary-fixed-variant": "#48416e", "surface-tint": "#286862", "secondary-fixed-dim": "#c9c0f5", "surface-container-high": "#ddeaf5", "error": "#ba1a1a", "on-background": "#111d25", "secondary-container": "#d2c8fe" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-sm": "0.5rem", "space-xl": "2.5rem", "margin-desktop": "3.5rem", "gutter-tablet": "1.5rem", "margin-tablet": "2rem", "margin": "1rem", "space-lg": "1.5rem", "space-xs": "0.25rem", "space-md": "1rem", "gutter-desktop": "2rem", "gutter": "1.25rem" }, "fontFamily": { "label-sm": ["Noto Sans"], "display-hero-mobile": ["Noto Sans"], "headline-lg-mobile": ["Noto Sans"], "headline-md": ["Noto Sans"], "headline-lg": ["Noto Sans"], "body-sm": ["Noto Sans"], "body-lg": ["Noto Sans"], "headline-sm": ["Noto Sans"], "display-hero": ["Noto Sans"], "body-md": ["Noto Sans"], "label-lg": ["Noto Sans"], "label-md": ["Noto Sans"] }, "fontSize": { "label-sm": ["11px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "display-hero-mobile": ["28px", { "lineHeight": "40px", "letterSpacing": "0", "fontWeight": "700" }], "headline-lg-mobile": ["24px", { "lineHeight": "36px", "letterSpacing": "0", "fontWeight": "600" }], "headline-md": ["22px", { "lineHeight": "34px", "letterSpacing": "0", "fontWeight": "600" }], "headline-lg": ["30px", { "lineHeight": "44px", "letterSpacing": "0", "fontWeight": "600" }], "body-sm": ["13px", { "lineHeight": "22px", "letterSpacing": "0", "fontWeight": "400" }], "body-lg": ["17px", { "lineHeight": "28px", "letterSpacing": "0", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "28px", "letterSpacing": "0", "fontWeight": "600" }], "display-hero": ["40px", { "lineHeight": "56px", "letterSpacing": "0", "fontWeight": "700" }], "body-md": ["15px", { "lineHeight": "26px", "letterSpacing": "0", "fontWeight": "400" }], "label-lg": ["15px", { "lineHeight": "22px", "letterSpacing": "0", "fontWeight": "500" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0", "fontWeight": "500" }] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><aside class="fixed right-0 top-0 h-full w-[260px] bg-surface-container-low shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between overflow-y-auto"><div class="flex flex-col"><div class="h-16 px-space-md flex items-center gap-space-sm bg-surface-container-low"><img alt="Israr Logo" class="w-9 h-9 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1WPbzXl9NOlxAtm6JyI9ao1BRlKdnKuT46rzOKtXPta169o89iOteXHLsKpkksXRu_i1X-RWgrapcK2Unv8jYlSDSxUEiSANF-LENitYjWr_3wdTRwc-IjpM6qDbdOYhgoqnd1uEopLZDaK2NUuCJv1d-tNRa0Fbv6QWCKiZUVDfDH089WeNbLoggdGYOIceqHHtwPF9b_Lb22hXgO2B6ybNlSlwepKUtWatif7FYK0Ro_emy3P_ztgx1OHG9-TWP9NeoSD_9OV"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary leading-tight font-bold">منصة إصرار</span><span class="font-label-sm text-label-sm text-on-surface-variant">بوابة التعلم الأسري</span></div></div><nav class="flex flex-col px-space-sm py-space-md gap-space-xs" data-active-classes="bg-primary text-on-primary font-bold shadow-[0_8px_30px_-4px_rgba(61,123,117,0.12)]"><a class="flex items-center justify-between px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="overview-home" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">grid_view</span><span class="font-label-lg text-label-lg">الرئيسية ونظرة عامة</span></div></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="courses-programs" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">auto_stories</span><span class="font-label-lg text-label-lg">الكورسات والبرامج</span></div><span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">2 نشط</span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="activities-flashcards" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">style</span><span class="font-label-lg text-label-lg">الأنشطة والبطاقات التعليمية</span></div></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="videos-sessions" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">smart_display</span><span class="font-label-lg text-label-lg">الفيديوهات التطبيقية والجلسات</span></div></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="visual-schedules" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">checklist</span><span class="font-label-lg text-label-lg">الجداول البصرية ومؤشر الإنجاز</span></div></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="mentor-messages" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">forum</span><span class="font-label-lg text-label-lg">الاستشارات ورسائل المرشد</span></div><span class="w-2.5 h-2.5 rounded-full bg-tertiary-container"></span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="favorites-resources" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">favorite</span><span class="font-label-lg text-label-lg">المفضلة ومواردي</span></div></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="settings-support" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">settings</span><span class="font-label-lg text-label-lg">الإعدادات والدعم الفني</span></div></a></nav></div><div class="p-space-sm"><div class="bg-surface-container-lowest p-space-md rounded-xl shadow-[0_2px_6px_-1px_rgba(36,48,56,0.03)] flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><div class="relative flex-shrink-0"><div class="w-9 h-9 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed font-headline-sm text-headline-sm">م</div><span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-primary ring-2 ring-surface-container-lowest"></span></div><div class="flex flex-col min-w-0"><span class="font-label-sm text-label-sm text-on-surface-variant">المرشدة المرافقة</span><span class="font-label-md text-label-md text-on-surface font-semibold truncate">الأخصائية مانيا كصوحة</span></div></div><a class="w-full flex items-center justify-center gap-1.5 py-2 px-space-sm rounded-lg bg-surface-container text-primary hover:bg-primary hover:text-on-primary font-label-sm text-label-sm font-semibold transition-colors" href="#"><span class="material-symbols-outlined text-[16px]">chat</span>محادثة عبر واتساب</a></div></div></aside><div class="pr-[260px]"><header class="fixed top-0 right-[260px] left-0 h-16 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-lg gap-space-md"><div class="flex items-center gap-space-sm min-w-0"><img alt="Logo" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1WPbzXl9NOlxAtm6JyI9ao1BRlKdnKuT46rzOKtXPta169o89iOteXHLsKpkksXRu_i1X-RWgrapcK2Unv8jYlSDSxUEiSANF-LENitYjWr_3wdTRwc-IjpM6qDbdOYhgoqnd1uEopLZDaK2NUuCJv1d-tNRa0Fbv6QWCKiZUVDfDH089WeNbLoggdGYOIceqHHtwPF9b_Lb22hXgO2B6ybNlSlwepKUtWatif7FYK0Ro_emy3P_ztgx1OHG9-TWP9NeoSD_9OV"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary font-bold leading-none">منصة إصرار</span><span class="font-label-sm text-label-sm text-on-surface-variant hidden sm:inline">بوابة التعلم الأسري</span></div></div><div class="flex-1 max-w-lg mx-space-md hidden md:block"><div class="relative w-full flex items-center"><span class="material-symbols-outlined absolute right-3 text-on-surface-variant text-[20px] pointer-events-none">search</span><input class="w-full h-10 pr-10 pl-4 rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm placeholder:text-on-surface-variant/70 focus:outline-none focus:bg-surface-container transition-all" placeholder="ابحث في الكورسات، التمارين، والاستشارات..." type="search"/></div></div><div class="flex items-center gap-space-sm flex-shrink-0"><button class="flex items-center gap-1.5 px-space-sm py-1.5 rounded-xl bg-surface-container-low text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-label-md text-label-md transition-colors" type="button"><span class="material-symbols-outlined text-[18px] text-tertiary">spa</span><span class="hidden lg:inline">نمط الراحة الحسية</span></button><button class="relative p-2 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-error"></span></button><div class="flex items-center gap-space-sm p-1.5 pr-3 rounded-full bg-surface-container-low hover:bg-surface-container transition-colors cursor-pointer"><div class="flex flex-col text-left"><span class="font-label-md text-label-md text-on-surface font-semibold">أمينة (والدة زين)</span><span class="font-label-sm text-label-sm text-on-surface-variant">المستوى التأسيسي</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1WPbzXl9NOlxAtm6JyI9ao1BRlKdnKuT46rzOKtXPta169o89iOteXHLsKpkksXRu_i1X-RWgrapcK2Unv8jYlSDSxUEiSANF-LENitYjWr_3wdTRwc-IjpM6qDbdOYhgoqnd1uEopLZDaK2NUuCJv1d-tNRa0Fbv6QWCKiZUVDfDH089WeNbLoggdGYOIceqHHtwPF9b_Lb22hXgO2B6ybNlSlwepKUtWatif7FYK0Ro_emy3P_ztgx1OHG9-TWP9NeoSD_9OV"/></div></div></header><main class="relative pt-16 min-h-screen bg-background px-space-md sm:px-space-lg lg:px-gutter-desktop py-space-lg"><div class="flex flex-col w-full gap-space-lg pb-12">
+<!-- Top Breadcrumb & Page Introduction -->
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2 text-on-surface-variant font-label-md text-label-md">
+<span>بوابة التعلم الأسري</span>
+<span class="material-symbols-outlined text-[14px]">chevron_left</span>
+<span class="text-primary font-semibold">المفضلة ومواردي</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface font-bold tracking-tight">
+        مواردي المفضلة وحقيبة الأدوات المحفوظة
+      </h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+        المساحة الخاصة بأهم التمارين، الجداول، ومقاطع الفيديو التي يفضلها طفلك زين لسهولة الوصول إليها في أي وقت وتجنب تشتيت البحث.
+      </p>
+</div>
+<!-- Stats & Sync Status Pill -->
+<div class="flex items-center gap-space-sm bg-surface-container-lowest px-4 py-2.5 rounded-2xl shadow-sm self-start md:self-auto">
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">14 مورداً محفوظاً</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+          تحديث مستمر وفق استجابة زين
+        </span>
+</div>
+</div>
+</div>
+<!-- Quick Calm Emergency Intervention Bar (Sensory Anchor) -->
+<section class="relative overflow-hidden bg-surface-container-low rounded-2xl p-5 md:p-6 shadow-sm">
+<div class="absolute -left-12 -top-12 w-48 h-48 bg-primary-fixed/20 rounded-full blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-space-lg">
+<div class="flex items-start gap-3.5 max-w-2xl">
+<div class="w-11 h-11 rounded-xl bg-primary flex items-center justify-center text-on-primary flex-shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[24px]">bolt</span>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex flex-wrap items-center gap-2">
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">
+              الوصول السريع لحالات فرط الحساسية والانفعال
+            </h2>
+<span class="px-2.5 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm font-semibold">
+              استجابة سريعة ومختبرة
+            </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            الأدوات الأكثر فاعلية لتهدئة زين بناءً على ملاحظات الجلسات الماضية وتوجيه الأخصائية مانيا كصوحة لتخفيف التحميل الحسي المفاجئ.
+          </p>
+</div>
+</div>
+<!-- Quick Action Buttons -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-sm flex-shrink-0">
+<button class="flex items-center justify-center gap-2.5 px-5 py-3 rounded-xl bg-on-surface text-on-primary font-label-lg text-label-lg hover:bg-surface-tint transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">play_circle</span>
+<span>تشغيل: تقنية الضغط والتنفس (05:20 د)</span>
+</button>
+<button class="flex items-center justify-center gap-2.5 px-5 py-3 rounded-xl bg-surface-container-lowest text-primary font-label-lg text-label-lg hover:bg-surface-container transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[20px]">download</span>
+<span>مقياس المشاعر والتنفس (PDF)</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Interactive Filter Category Pills -->
+<section class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2 overflow-x-auto pb-1.5 scrollbar-none w-full" id="filter-container">
+<button class="px-4 py-2 rounded-full bg-on-surface text-on-primary font-label-md text-label-md flex items-center gap-1.5 flex-shrink-0 shadow-sm transition-all" type="button">
+<span>جميع المحفوظات</span>
+<span class="w-5 h-5 rounded-full bg-on-primary/20 text-on-primary text-[11px] flex items-center justify-center">14</span>
+</button>
+<button class="px-4 py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-label-md text-label-md flex items-center gap-1.5 flex-shrink-0 shadow-sm transition-all" type="button">
+<span>تمارين يحبها زين ⭐</span>
+<span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant text-[11px] flex items-center justify-center">5</span>
+</button>
+<button class="px-4 py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-label-md text-label-md flex items-center gap-1.5 flex-shrink-0 shadow-sm transition-all" type="button">
+<span>فيديوهات التهدئة والتفريغ الحسي</span>
+<span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant text-[11px] flex items-center justify-center">3</span>
+</button>
+<button class="px-4 py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-label-md text-label-md flex items-center gap-1.5 flex-shrink-0 shadow-sm transition-all" type="button">
+<span>جداول وبطاقات الطباعة السريعة</span>
+<span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant text-[11px] flex items-center justify-center">4</span>
+</button>
+<button class="px-4 py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-label-md text-label-md flex items-center gap-1.5 flex-shrink-0 shadow-sm transition-all" type="button">
+<span>أدلة وكراسات الأهل</span>
+<span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant text-[11px] flex items-center justify-center">2</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Saved Resources Grid (3 Columns) -->
+<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Card 1: Interactive Play Video (Zain's Top Pick) -->
+<article class="bg-surface-container-lowest rounded-2xl p-5 shadow-sm hover:shadow-md transition-all flex flex-col justify-between gap-space-md group">
+<div class="flex flex-col gap-3">
+<!-- Top Metadata & Favorite Status -->
+<div class="flex items-center justify-between gap-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-primary font-label-sm text-label-sm font-semibold">فيديو تفاعلي</span>
+<span class="px-2.5 py-1 rounded-full bg-tertiary-container/15 text-tertiary font-label-sm text-label-sm font-semibold">مفضلة زين الأولى ⭐</span>
+</div>
+<button class="w-9 h-9 rounded-xl bg-error-container/40 text-error flex items-center justify-center hover:bg-error-container transition-colors" title="إزالة من المفضلة" type="button">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+</div>
+<!-- Media Thumbnail Preview with Duration Overlay -->
+<div class="relative w-full h-44 rounded-xl overflow-hidden bg-surface-container flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A soothing therapeutic session showing a calm child playing with gentle glowing soap bubbles alongside a speech therapist in a sensory room with mint green and soft lavender decor, natural diffused light, peaceful atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCOzoh2y6vA8iy-5XJG3FjFCqDNKDNCbREzw5EHsJm9WL0Hu5lDtAzFDDX0y3v6DKBPqqhKM7iM0Cel2V23e3XDrmVpC1e6OhORmBK4ZPAs5H7IuhNPEiG7K8rdy-_eHtfVTQbT3rOD0GFFehzViL75pQeL8ScLvO_yQhEDseLL7FaeiYV_dHGxxhVsmyp8CL3ZX-dYIJeFFeY_IOJWMDCXsedVOiSHqA9jExPRP8"/>
+<div class="absolute inset-0 bg-on-surface/20 flex items-center justify-center">
+<div class="w-12 h-12 rounded-full bg-surface-container-lowest/90 text-primary flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+<span class="absolute bottom-2.5 left-2.5 px-2 py-0.5 rounded-md bg-on-surface/80 text-surface-container-lowest font-label-sm text-label-sm">
+            07:45 دقيقة
+          </span>
+</div>
+<!-- Resource Details -->
+<div class="flex flex-col gap-1.5">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold leading-snug">
+            لعبة الفقاعات الملونة لزيادة التواصل البصري التشاركي
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            تدريب حركي مرح يركز على تتبع حركة الفقاعات وتسمية الألوان وتعزيز التواصل البصري التلقائي.
+          </p>
+</div>
+<!-- Specialist & Parental Note -->
+<div class="bg-surface-container-low px-3 py-2 rounded-xl flex items-start gap-2">
+<span class="text-tertiary-container font-label-sm">💡</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            يستجيب لها زين بحماس وتساعده على التهدئة قبل الانتقال بين الأنشطة الحركية والذهنية.
+          </span>
+</div>
+</div>
+<!-- Footer & Action -->
+<div class="flex flex-col gap-3 pt-2">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>مسار زين الفردي</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary">verified</span>
+            إشراف: أ. مانيا
+          </span>
+</div>
+<button class="w-full py-3 px-4 rounded-xl bg-on-surface text-on-primary font-label-lg text-label-lg hover:bg-surface-tint transition-colors flex items-center justify-center gap-2" type="button">
+<span>مشاهدة الفيديو المفضل</span>
+<span class="material-symbols-outlined text-[18px]">play_circle</span>
+</button>
+</div>
+</article>
+<!-- Card 2: Printable Sensory Worksheet (Tracing) -->
+<article class="bg-surface-container-lowest rounded-2xl p-5 shadow-sm hover:shadow-md transition-all flex flex-col justify-between gap-space-md group">
+<div class="flex flex-col gap-3">
+<!-- Top Metadata & Favorite Status -->
+<div class="flex items-center justify-between gap-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/30 text-secondary font-label-sm text-label-sm font-semibold">كراسة A4 جاهزة</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">تآزر حركي دقيق</span>
+</div>
+<button class="w-9 h-9 rounded-xl bg-error-container/40 text-error flex items-center justify-center hover:bg-error-container transition-colors" title="إزالة من المفضلة" type="button">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+</div>
+<!-- Document Preview -->
+<div class="relative w-full h-44 rounded-xl overflow-hidden bg-surface-container flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Close up mock-up of a calming sensory occupational therapy worksheet featuring clean wavy dotted lines, circular tracks and friendly geometric shapes ready for children tracing, clean minimalist design with teal guides on crisp paper." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfjAyDcg9FbamCnzPja3E3AtNBWLg7qlKz-h1JFapsrgti0YKCPWIkTUUnwIqZrOe4dvGLR0PlHDZxty5WXXH3QhtT_LmJ3vIX5DAw_kbhqZ_bq9NcD2jAy3rFUAvN79gZ5PevzGThp0GzrXrf_wrBYMlAxais-0dVC1AYVL553qRkl2UrI4CPARr4uykEfRCAoadExCcJtAf-cL8vFFSUKooBcGrfHG-r-L0r7e4"/>
+<span class="absolute top-2.5 left-2.5 px-2 py-0.5 rounded-md bg-surface-container-lowest/90 text-primary font-label-sm text-label-sm shadow-sm">
+            PDF • 300 DPI
+          </span>
+</div>
+<!-- Resource Details -->
+<div class="flex flex-col gap-1.5">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold leading-snug">
+            كراسة تتبع المسارات الهندسية والتحكم بالقلم (المستوى 1)
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            أوراق عمل متدرجة لتنمية عضلات اليد الدقيقة ومساعدة زين على مسك القلم بثبات بدون إجهاد.
+          </p>
+</div>
+<!-- Specialist Note -->
+<div class="bg-surface-container-low px-3 py-2 rounded-xl flex items-start gap-2">
+<span class="text-tertiary-container font-label-sm">💡</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            جاهزة لإعادة الطباعة عند انتهاء أوراق التمرين المنزلي. يُفضل استخدام الأقلام العريضة.
+          </span>
+</div>
+</div>
+<!-- Footer & Action -->
+<div class="flex flex-col gap-3 pt-2">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>10 صفحات A4</span>
+<span>طباعة فورية للمنزل</span>
+</div>
+<button class="w-full py-3 px-4 rounded-xl bg-surface-container text-primary font-label-lg text-label-lg hover:bg-primary hover:text-on-primary transition-colors flex items-center justify-center gap-2" type="button">
+<span>تحميل وطباعة مجددة</span>
+<span class="material-symbols-outlined text-[18px]">print</span>
+</button>
+</div>
+</article>
+<!-- Card 3: Visual Routine Schedule (Bedtime Calm) -->
+<article class="bg-surface-container-lowest rounded-2xl p-5 shadow-sm hover:shadow-md transition-all flex flex-col justify-between gap-space-md group">
+<div class="flex flex-col gap-3">
+<!-- Top Metadata & Favorite Status -->
+<div class="flex items-center justify-between gap-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/30 text-secondary font-label-sm text-label-sm font-semibold">جدول روتين</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">تهيئة النوم</span>
+</div>
+<button class="w-9 h-9 rounded-xl bg-error-container/40 text-error flex items-center justify-center hover:bg-error-container transition-colors" title="إزالة من المفضلة" type="button">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+</div>
+<!-- Schedule Preview -->
+<div class="relative w-full h-44 rounded-xl overflow-hidden bg-surface-container flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A visual autism schedule board with bedtime icon cards like pajamas, brushing teeth, soft night story, and sleeping under a crescent moon, calming deep indigo and warm sage green colors." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCFGY9TSoIT3OIInOoBpGmw-2GvZi95UDo_kCq6U848fLOTsGk2MHjBc3QcLwDObOaoEnq01fsQA19O5ZuSaDqzukCoXUAMDMq1puPwfThu1JJfamou599lykF3yeiQkW5zwWj1jHjyDc76gKQlYmFoELuKGqGfRmC6L2aDxBD_6Wq_WA99OPlzBnqiQdYC731kjE6LlnRTfO1r8oG6e2FyL-zo12NhA8qZAM19Iw"/>
+<span class="absolute bottom-2.5 right-2.5 px-2.5 py-1 rounded-lg bg-surface-container-lowest/90 text-secondary font-label-sm text-label-sm shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">bedtime</span>
+            الروتين المسائي
+          </span>
+</div>
+<!-- Resource Details -->
+<div class="flex flex-col gap-1.5">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold leading-snug">
+            جدول الاسترخاء والتهيئة للنوم الهادئ
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            سلسلة بصرية تعتمد على الخطوات الرمزية لمساعدة الطفل على إدراك موعد النوم وتقليل القلق الليلي.
+          </p>
+</div>
+<!-- Specialist Note -->
+<div class="bg-surface-container-low px-3 py-2 rounded-xl flex items-start gap-2">
+<span class="text-tertiary-container font-label-sm">💡</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            مثبت على باب غرفة زين للمتابعة المستمرة كل مساء برفقة الأم أمينة قبل نصف ساعة من النوم.
+          </span>
+</div>
+</div>
+<!-- Footer & Action -->
+<div class="flex flex-col gap-3 pt-2">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>خطوات تسلسلية مصورة</span>
+<span>تقليل التوتر الليلي</span>
+</div>
+<button class="w-full py-3 px-4 rounded-xl bg-surface-container text-on-surface font-label-lg text-label-lg hover:bg-surface-container-high transition-colors flex items-center justify-center gap-2" type="button">
+<span>معاينة الجدول البصري</span>
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+</article>
+<!-- Card 4: Essential PECS Communication Cards -->
+<article class="bg-surface-container-lowest rounded-2xl p-5 shadow-sm hover:shadow-md transition-all flex flex-col justify-between gap-space-md group">
+<div class="flex flex-col gap-3">
+<!-- Top Metadata & Favorite Status -->
+<div class="flex items-center justify-between gap-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-primary-fixed text-primary font-label-sm text-label-sm font-semibold">بطاقات رمزية PECS</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">نطق وتخاطب</span>
+</div>
+<button class="w-9 h-9 rounded-xl bg-error-container/40 text-error flex items-center justify-center hover:bg-error-container transition-colors" title="إزالة من المفضلة" type="button">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+</div>
+<!-- Thumbnail Preview -->
+<div class="relative w-full h-44 rounded-xl overflow-hidden bg-surface-container flex items-center justify-center p-3">
+<div class="grid grid-cols-2 gap-2 w-full h-full">
+<div class="bg-surface-container-lowest rounded-lg p-2 flex flex-col items-center justify-center text-center shadow-xs">
+<span class="material-symbols-outlined text-primary text-[24px]">local_drink</span>
+<span class="font-label-sm text-label-sm text-on-surface font-medium mt-1">أريد ماء</span>
+</div>
+<div class="bg-surface-container-lowest rounded-lg p-2 flex flex-col items-center justify-center text-center shadow-xs">
+<span class="material-symbols-outlined text-secondary text-[24px]">restaurant</span>
+<span class="font-label-sm text-label-sm text-on-surface font-medium mt-1">طعام / جائع</span>
+</div>
+<div class="bg-surface-container-lowest rounded-lg p-2 flex flex-col items-center justify-center text-center shadow-xs">
+<span class="material-symbols-outlined text-tertiary text-[24px]">self_improvement</span>
+<span class="font-label-sm text-label-sm text-on-surface font-medium mt-1">أحتاج راحة</span>
+</div>
+<div class="bg-surface-container-lowest rounded-lg p-2 flex flex-col items-center justify-center text-center shadow-xs">
+<span class="material-symbols-outlined text-primary text-[24px]">smart_toy</span>
+<span class="font-label-sm text-label-sm text-on-surface font-medium mt-1">لعبتي المفضلة</span>
+</div>
+</div>
+<span class="absolute bottom-2.5 left-2.5 px-2 py-0.5 rounded-md bg-surface-container-lowest text-primary font-label-sm text-label-sm shadow-sm">
+            24 بطاقة
+          </span>
+</div>
+<!-- Resource Details -->
+<div class="flex flex-col gap-1.5">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold leading-snug">
+            بطاقات التعبير عن الاحتياجات الأساسية (PECS)
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            مجموعة بطاقات التبادل الصوري للتعبير عن المشاعر والرغبات بوضوح بدون نوبات غضب ناتجة عن عجز التواصل.
+          </p>
+</div>
+<!-- Specialist Note -->
+<div class="bg-surface-container-low px-3 py-2 rounded-xl flex items-start gap-2">
+<span class="text-tertiary-container font-label-sm">💡</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            مطبوعة ومغلفة حرارياً للاستخدام اليومي في حقيبة الظهر المرافقة لزين عند الخروج.
+          </span>
+</div>
+</div>
+<!-- Footer & Action -->
+<div class="flex flex-col gap-3 pt-2">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>دقة طباعة عالية 300 DPI</span>
+<span>موزعة حسب الألوان</span>
+</div>
+<button class="w-full py-3 px-4 rounded-xl bg-surface-container text-primary font-label-lg text-label-lg hover:bg-primary hover:text-on-primary transition-colors flex items-center justify-center gap-2" type="button">
+<span>تحميل الملف عالي الدقة</span>
+<span class="material-symbols-outlined text-[18px]">file_download</span>
+</button>
+</div>
+</article>
+<!-- Card 5: In-progress Course Module Video -->
+<article class="bg-surface-container-lowest rounded-2xl p-5 shadow-sm hover:shadow-md transition-all flex flex-col justify-between gap-space-md group">
+<div class="flex flex-col gap-3">
+<!-- Top Metadata & Favorite Status -->
+<div class="flex items-center justify-between gap-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-primary font-label-sm text-label-sm font-semibold">درس تدريبي للأهل</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">تفاعل اجتماعي</span>
+</div>
+<button class="w-9 h-9 rounded-xl bg-error-container/40 text-error flex items-center justify-center hover:bg-error-container transition-colors" title="إزالة من المفضلة" type="button">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+</div>
+<!-- Thumbnail Preview -->
+<div class="relative w-full h-44 rounded-xl overflow-hidden bg-surface-container flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A professional behavioral specialist demonstrating interactive shared floor play techniques with wooden blocks, soft indoor natural lighting, instructional educational setting with warm pastel colors." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQECrji3bdBfUaWNbJUB1KIvoQJfnDTqmkbrmEQv0q9cSd6VM96iUHy2zJF4VQqs3sInAClANuzYXqDRcbVu5a2REHLcKlEt7rNDnFCou6oInVSCqittV1BghOyPDf5jXkI7a9GZKytxD0FyPhShQ7ZPTxy_WDeI4hcSLKJt7ecLIQcZhtXu-wWXpWhVUZaCC3Lq7E5nR0eoBlXjdvgZGii06uyljXnKy7sUrhSNk"/>
+<div class="absolute inset-0 bg-on-surface/20 flex items-center justify-center">
+<div class="w-12 h-12 rounded-full bg-surface-container-lowest/90 text-primary flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+<span class="absolute bottom-2.5 left-2.5 px-2 py-0.5 rounded-md bg-on-surface/80 text-surface-container-lowest font-label-sm text-label-sm">
+            15:00 دقيقة
+          </span>
+</div>
+<!-- Resource Details -->
+<div class="flex flex-col gap-1.5">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold leading-snug">
+            جلسة: استراتيجيات التفاعل والتواصل اللفظي أثناء اللعب
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            شرح عملي لكيفية استغلال اللعب التخيلي لتشجيع الطفل على إصدار الأصوات وبناء جمل ثنائية الكلمات.
+          </p>
+</div>
+<!-- Specialist Note -->
+<div class="bg-surface-container-low px-3 py-2 rounded-xl flex items-start gap-2">
+<span class="text-tertiary-container font-label-sm">💡</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            ملاحظات مفيدة لتطبيقها في عطلة نهاية الأسبوع مع الوالد لتعزيز روح الاندماج الأسري.
+          </span>
+</div>
+</div>
+<!-- Footer & Action -->
+<div class="flex flex-col gap-3 pt-2">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>الدرس 6 من 12</span>
+<span>برنامج التواصل الفعّال</span>
+</div>
+<button class="w-full py-3 px-4 rounded-xl bg-on-surface text-on-primary font-label-lg text-label-lg hover:bg-surface-tint transition-colors flex items-center justify-center gap-2" type="button">
+<span>متابعة الدرس</span>
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+</button>
+</div>
+</article>
+<!-- Card 6: Home Sensory Activity Guide -->
+<article class="bg-surface-container-lowest rounded-2xl p-5 shadow-sm hover:shadow-md transition-all flex flex-col justify-between gap-space-md group">
+<div class="flex flex-col gap-3">
+<!-- Top Metadata & Favorite Status -->
+<div class="flex items-center justify-between gap-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold">نشاط حسي منزلي</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">تكامل حسي</span>
+</div>
+<button class="w-9 h-9 rounded-xl bg-error-container/40 text-error flex items-center justify-center hover:bg-error-container transition-colors" title="إزالة من المفضلة" type="button">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+</div>
+<!-- Thumbnail Preview -->
+<div class="relative w-full h-44 rounded-xl overflow-hidden bg-surface-container flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A safe tactile sensory bin filled with colored pasta, smooth river stones, soft pom poms, and wooden spoons on a neat kitchen table, bright, clean, sensory therapy at home." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCG5VJzyHGYVht02I4Y9vOEMJ490lYt2bVCqpLC9yDmhDTzRHmpeJEnwFu9yC8PM-j-i14i10cr7hoiJ-MEJl0oRrXFSfR9ywD2qfvwuMT8jTzaclV0OizVsppryMKmZo-Ou4aJ3yOw2E4fnS16xaznxKOszTqSrbasEm7iSWlJ6isntXbAC7YBmq_IVzjtkx8fRSKxW_jowM-e6bHHN1NXoK8dDGHsxRHSCEN6Zvc"/>
+<span class="absolute bottom-2.5 right-2.5 px-2.5 py-1 rounded-lg bg-surface-container-lowest/90 text-tertiary font-label-sm text-label-sm shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">touch_app</span>
+            تفريغ حسي
+          </span>
+</div>
+<!-- Resource Details -->
+<div class="flex flex-col gap-1.5">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold leading-snug">
+            دليل إعداد صندوق الملامس الحسي بمكونات المطبخ
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            خطوات بسيطة لتجهيز بيئة حسية آمنة باستخدام الأرز، المعكرونة، والأقمشة المختلفة لتحسين المعالجة اللمسية.
+          </p>
+</div>
+<!-- Specialist Note -->
+<div class="bg-surface-container-low px-3 py-2 rounded-xl flex items-start gap-2">
+<span class="text-tertiary-container font-label-sm">💡</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            يساعد زين على تفريغ شحنات التوتر قبل جلسات التركيز والكتابة المنزلية بخمس عشرة دقيقة.
+          </span>
+</div>
+</div>
+<!-- Footer & Action -->
+<div class="flex flex-col gap-3 pt-2">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>أدوات آمنة من المنزل</span>
+<span>تطبيق فوري</span>
+</div>
+<button class="w-full py-3 px-4 rounded-xl bg-surface-container text-on-surface font-label-lg text-label-lg hover:bg-surface-container-high transition-colors flex items-center justify-center gap-2" type="button">
+<span>فتح خطوات النشاط</span>
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+</button>
+</div>
+</article>
+</section>
+<!-- Organizational Guidance Callout Banner -->
+<section class="bg-surface-container-lowest rounded-2xl p-5 md:p-6 shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-secondary-container/40 text-secondary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[26px]">folder_copy</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">
+          تنظيم الموارد في مجلدات مخصصة
+        </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          يمكنك تنظيم مفضلات زين في تصنيفات مخصصة (مثال: مجلد الصباح، مجلد وقت النوم، مجلد خارج المنزل) لسهولة المتابعة مع بقية أفراد الأسرة.
+        </p>
+</div>
+</div>
+<button class="flex-shrink-0 flex items-center gap-2 px-5 py-2.5 rounded-xl bg-surface-container text-primary hover:bg-primary hover:text-on-primary font-label-lg text-label-lg transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">add</span>
+<span>إنشاء مجلد مفضلات جديد</span>
+</button>
+</section>
+</div>
+<script>
+  // Interactive Filter Pill State Logic
+  document.addEventListener('DOMContentLoaded', () => {
+    const filterContainer = document.getElementById('filter-container');
+    if (filterContainer) {
+      const buttons = filterContainer.querySelectorAll('button');
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          buttons.forEach(b => {
+            b.className = 'px-4 py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-label-md text-label-md flex items-center gap-1.5 flex-shrink-0 shadow-sm transition-all';
+          });
+          btn.className = 'px-4 py-2 rounded-full bg-on-surface text-on-primary font-label-md text-label-md flex items-center gap-1.5 flex-shrink-0 shadow-sm transition-all';
+        });
+      });
+    }
+
+    // Toggle Favorite Action Micro-interaction
+    const heartButtons = document.querySelectorAll('button[title="إزالة من المفضلة"]');
+    heartButtons.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const icon = btn.querySelector('.material-symbols-outlined');
+        if (icon) {
+          if (icon.textContent.trim() === 'favorite') {
+            icon.textContent = 'favorite_border';
+            btn.classList.remove('bg-error-container/40', 'text-error');
+            btn.classList.add('bg-surface-container', 'text-on-surface-variant');
+            btn.title = 'إضافة إلى المفضلة';
+          } else {
+            icon.textContent = 'favorite';
+            btn.classList.add('bg-error-container/40', 'text-error');
+            btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+            btn.title = 'إزالة من المفضلة';
+          }
+        }
+      });
+    });
+  });
+</script></main></div></body></html>
